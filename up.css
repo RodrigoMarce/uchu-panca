@@ -1,0 +1,262 @@
+html{
+	font-family: monospace;
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: 2em;
+}
+body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+img{
+	width: 35vw;
+}
+a:link{
+	text-decoration: none;
+	color: black
+}
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+div{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/*NAVBAR*/
+#insta{
+	width: 28px;
+	float: right;
+}
+#imageup{
+	height: 18vh;
+	width: auto;
+}
+/*INDEX*/
+#fondo{
+	position: relative;
+	width: 70vw;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#logo{
+	z-index: 1;
+	width: 35%;
+	position: absolute;
+	left: 58%;
+	bottom: 73%;
+}
+/*SOBRE NOSOTROS*/
+#slider{
+	overflow: hidden;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#slider figure{
+	position: relative;
+	width: 1700%;
+	margin-left: 0;
+	animation: 85s slider infinite;
+}
+#slider figure img{
+	width: 5.88%;
+	float: left;
+}
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	3%{
+		left: 0%;
+	}
+	5.9%{
+		left: -100%;
+	}
+	9%{
+		left: -100%;
+	}
+	11.8%{
+		left: -200%;
+	}
+	15%{
+		left: -200%;
+	}
+	17.7%{
+		left: -300%;
+	}
+	20%{
+		left: -300%;
+	}
+	23.6%{
+		left: -400%;
+	}
+	26%{
+		left: -400%;
+	}
+	29.5%{
+		left: -500%;
+	}
+	32%{
+		left: -500%;
+	}
+	35.4%{
+		left: -600%;
+	}
+	38%{
+		left: -600%;
+	}
+	41.3%{
+		left: -700%;
+	}
+	44%{
+		left: -700%;
+	}
+	47.2%{
+		left: -800%;
+	}
+	50%{
+		left: -800%;
+	}
+	53.1%{
+		left: -900%
+	}
+	56%{
+		left: -900%
+	}
+	59%{
+		left: -1000%;
+	}
+	63%{
+		left: -1000%;
+	}
+	64.9%{
+		left: -1100%;
+	}
+	68%{
+		left: -1100%;
+	}
+	70.8%{
+		left: -1200%;
+	}
+	74%{
+		left: -1200%;
+	}
+	76.7%{
+		left: -1300%;
+	}
+	80%{
+		left: -1300%;
+	}
+	82.6%{
+		left: -1400%;
+	}
+	86%{
+		left: -1400%;
+	}
+	88.5%{
+		left: -1500%;
+	}
+	92%{
+		left: -1500%;
+	}
+	94.4%{
+		left: -1600%;
+	}
+	98%{
+		left: -1600%;
+	}
+	100%{
+		left:-1700%;
+	}
+}
+/*INSUMOS*/
+#mapa{
+	position: relative;
+	top: 10px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+}
+#insumos img{
+	position: absolute;
+	height: 8%;
+	width: auto;
+	z-index: 1;
+}
+.aji{
+	top: 77%;
+	left: 56%;
+}
+.castaña{
+	top: 59%;
+	left: 63%;
+}
+.coca{
+	top: 41%;
+	left: 47%;
+}
+.cushuro{
+	top: 45%;
+	left: 42%;
+}
+.mashua{
+	top: 68%;
+	left: 56%;
+}
+.navaja{
+	top: 59%;
+	left: 45%;
+}
+.oca{
+	top: 52%;
+	left: 49%;
+}
+.sachatomate{
+	top: 64%;
+	left: 59%;
+}
+.tumbo{
+	top: 24%;
+	left: 40%;
+}
+.yacon{
+	top: 69%;
+	left: 47%;
+}
+.pacae{
+	top: 72%;
+	left: 50%
+}
+.loche{
+	top: 30%;
+	left: 36%;
+}
+/*CONTACTO Y RESERVACIONES*/
+body.contacto{
+	background-image: url(imagenes/andes.jpg);
+}
+body.reservaciones{
+	background-image: url(imagenes/reserva.jpg);
+}
+#contacto, #calendly{
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	top: 35%;
+	left: 30%;
+	right: 30%;
+	z-index: 1;
+	background-color: rgb(255, 255, 255);
+	opacity: 0.8;
+	border-radius: 10px;
+}
+#instacontacto{
+	width: 20px;
+	height: auto;
+}
